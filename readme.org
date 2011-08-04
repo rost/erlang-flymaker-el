@@ -1,0 +1,10 @@
+
+* erlang-flymaker-el
+
+These are a couple of functions intended for use together with
+/erlang-flymake.el/ bundled with OTP.
+
+I wanted to be able to run the erlang compiler directly from elisp
+code instead of keeping track of external Erlang code. Turned out such
+code had found it's way into mainline OTP. The functionality in
+/erlang-flymaker-el/ seemed to be missing though.
